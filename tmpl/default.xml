@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_JOOMDLE_COURSESSOLINK_LAYOUT">
+		<message>
+			<![CDATA[COM_JOOMDLE_COURSESSOLINK_LAYOUT_DESCRIPTION]]>
+		</message>
+	</layout>
+	<state>
+		<name>COM_JOOMDLE_COURSESSOLINK_LAYOUT</name>
+		<description>COM_JOOMDLE_COURSESSOLINK_LAYOUT_DESCRIPTION</description>
+		  <config><fields name="params"><fieldset name="basic">
+            <field name="coursessolink_courseid" type="text" default="1" label="COM_JOOMDLE_COURSESSOLINK_COURSEID" description="COM_JOOMDLE_COURSESSOLINK_COURSEID_DESCRIPTION" filter="integer" />
+			<field name="coursessolink_linkto" type="list" default="moodle" label="COM_JOOMDLE_LINKTO" description="COM_JOOMDLE_LINKTO_DESCRIPTION">
+										<option value="moodle">Moodle course</option>
+										<option value="joomdlecourse">Joomdle Course view</option>
+										<option value="detail">Joomdle Course details view</option>
+			</field>
+			<field name="coursessolink_missingcourses_text" type="textarea" default="" label="COM_JOOMDLE_COURSESSOLINK_MISSINGCOURSES_TEXT" rows="3" cols="30" description="COM_JOOMDLE_COURSESSOLINK_MISSINGCOURSES_TEXT_DESCRIPTION" />
+
+            </fieldset></fields></config>
+
+		<advanced>
+
+		</advanced>
+	</state>
+</metadata>
