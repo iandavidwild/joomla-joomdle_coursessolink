@@ -10,7 +10,7 @@
 		<description>COM_JOOMDLE_COURSESSOLINK_LAYOUT_DESCRIPTION</description>
 		  <config><fields name="params"><fieldset name="basic">
             <field name="coursessolink_courseid" type="text" default="1" label="COM_JOOMDLE_COURSESSOLINK_COURSEID" description="COM_JOOMDLE_COURSESSOLINK_COURSEID_DESCRIPTION" filter="integer" />
-			<field name="coursessolink_linkto" type="list" default="moodle" label="COM_JOOMDLE_LINKTO" description="COM_JOOMDLE_LINKTO_DESCRIPTION">
+			<field name="coursessolink_linkto" type="list" default="moodle" label="COM_JOOMDLE_COURSESSOLINK_LINKTO" description="COM_JOOMDLE_COURSESSOLINK_LINKTO_DESCRIPTION">
 										<option value="moodle">Moodle course</option>
 										<option value="joomdlecourse">Joomdle Course view</option>
 										<option value="detail">Joomdle Course details view</option>
