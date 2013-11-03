@@ -42,9 +42,12 @@ if ($linkstarget == "new")
     <div class="joomdle_coursessolink">
     <?php
     $lang = JoomdleHelperContent::get_lang ();
-    
-    $course_info = JoomdleHelperContent::getCourseInfo((int)$courseid);
-    $name = $course_info['fullname'];
+
+    $name = JText::_ (COM_JOOMDLE_SITEFRONTPAGE);
+    if($courseid > 1) {
+        $course_info = JoomdleHelperContent::getCourseInfo((int)$courseid);
+        $name = $course_info['fullname'];
+    }
     
     if ($linkto == 'moodle')
     {
